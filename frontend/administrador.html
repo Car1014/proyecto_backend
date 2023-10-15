@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/administrador.css">
+    <link rel="preload" href="css/administrador.css" as="style">
+    <title>Administrador</title>
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav contenedor">
+            <div class="nav__logo">
+                <h2 class="nav__titulo">M.C.</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="./index.html" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="./tiendaProductos.html" class="nav__links">Productos</a>
+                </li>
+                <li class="nav__items">
+                    <a href="./carrito.html" class="nav__links">Tus compras</a>
+                </li>
+                <li class="nav__items">
+                    <a href="./contacto.html" class="nav__links">Contacto</a>
+                </li>
+
+                <li class="nav__items">
+                    <a href="./iniciosesion.html" class="nav__links">Iniciar sesion</a>
+                </li>
+
+                <li class="nav_items">
+                    <a href="./registro.html" class="nav__links">Crear cuenta</a>
+                </li>
+
+                <li class="nav__items">
+                    <a href="./administrador.html" class="nav__links">Administrador</a>
+                </li>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            </ul>
+
+            <div class="nav__menu">
+                <img src="/img/imagenPrincipal.jpg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__contenedor contenedor2">
+            <h1 class="hero__titulo">Tu tienda de tecnología en línea</h1>
+            <p class="hero__parrafo">Descuentos, ofertas y tecnología de última generación</p>
+            
+        </section>
+    </header>
+ 
+    <div class="buscador">
+        <form>
+            <label for="busqueda"></label>
+            <input type="search" id="busqueda" name="busqueda" placeholder="Escribe tu búsqueda aquí">
+            <input type="submit" value="Buscar">
+            
+        </form>
+    </div>
+
+    <div class="titulo2">
+        <h2>Administrador</h2>
+        <p>Como administrador puedes</p>
+        <p>1. Agregar productos</p>
+        <p>2. Editar productos</p>
+        <p>3 Quitar productos</p>
+        <p>4. Argegar productos</p>
+    </div>
+
+    <main class="contenedor-productos sombra">
+
+        <div class="listar">
+
+            <div class="celda">
+                <div class="imagenes">
+                    <img src="../Proyecto-Unica-main/imagenes/telefono (2).jpeg" alt="" width="250" height="200">
+                </div>
+                <div class="text">
+                    <h3>celular </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, blan</p>
+                    <p><b>Marca:</b>samsung</p>
+                    <p><b>Color:</b>blanco</p>
+                    <p><b>Memoria:</b>128gb</p>
+                    <p><b>Sistema operativo</b>android</p>
+    
+                    <input type="submit" name="boton1" value="editar producto">
+                    <input type="submit" name="boton1" value="quitar produto">
+                    <input type="submit" name="boton1" value="Modificar cantidades">
+    
+                </div>
+            </div>
+    
+            <div class="celda">
+                <div class="imagenes">
+                    <img src="../Proyecto-Unica-main/imagenes/telefono3.jpeg" alt="" width="200" height="250">
+                </div>
+                <div class="text">
+                    <h3>celular </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, blan</p>
+                    <p><b>Marca:</b>samsung</p>
+                    <p><b>Color:</b>blanco</p>
+                    <p><b>Memoria:</b>128gb</p>
+                    <p><b>Sistema operativo</b>android</p>
+                    <input type="submit" name="boton1" value="editar producto">
+                    <input type="submit" name="boton1" value="quitar produto">
+                    <input type="submit" name="boton1" value="Modificar cantidades">
+    
+                </div>
+            </div>
+    
+            <div class="celda">
+                <div class="imagenes">
+                    <img src="../Proyecto-Unica-main/imagenes/audifonos.jpeg" alt="" width="250" height="250">
+                </div>
+                <div class="text">
+                    <h3>Audifonos </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, blan</p>
+                    <p><b>Marca:</b>samsung</p>
+                    <p><b>Color:</b>blanco</p>
+                    <p><b>Memoria:</b>128gb</p>
+                    <p><b>Sistema operativo</b>android</p>
+                    <input type="submit" name="boton1" value="editar producto">
+                    <input type="submit" name="boton1" value="quitar produto">
+                    <input type="submit" name="boton1" value="Modificar cantidades">
+    
+                </div>
+            </div>
+    
+            <div class="celda">
+                <div class="imagenes">
+                    <img src="../tiendaonline/img/telefono.jpeg" alt="" width="150" height="150">
+                </div>
+                <div class="text">
+                    <h3>celular </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis</p>
+                    <p><b>Marca:</b>samsung</p>
+                    <p><b>Color:</b>blanco</p>
+                    <p><b>Memoria:</b>128gb</p>
+                    <p><b>Sistema operativo</b>android</p>
+                    
+                    <input type="submit" name="boton1" value="editar producto">
+                    <input type="submit" name="boton1" value="quitar produto">
+                    <input type="submit" name="boton1" value="Modificar cantidades">
+                </div>
+            </div>
+    
+            <div class="celda">
+                <div class="imagenes">
+                    <img src="../tiendaonline/img/tablet.jpg" alt="" width="250" height="250">
+                </div>
+                <div class="text">
+                    <h3>Tablet</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, blan</p>
+                    <p><b>Marca:</b>samsung</p>
+                    <p><b>Color:</b>blanco</p>
+                    <p><b>Memoria:</b>128gb</p>
+                    <p><b>Sistema operativo</b>android</p>
+                    <input type="submit" name="boton1" value="editar producto">
+                    <input type="submit" name="boton1" value="quitar produto">
+                    <input type="submit" name="boton1" value="Modificar cantidades">
+    
+                </div>
+            </div>
+    
+
+            <div class="pagar">
+                <input type="submit" name="boton1" value="agregar un producto nuevo" id="boton-nuevo">
+            </div>
+    
+    
+        </div>
+
+
+    </main>
+
+
+    <footer class="footer">
+        <section class="footer__contenedor contenedor">
+            <nav class="nav nav--footer">
+                <h2 class="footer__titulo">IronTec</h2>
+
+                <ul class="nav__link nav__link--menu">
+                    <li class="nav__items">
+                        <a href="./index.html" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="./tiendaProductos.html" class="nav__links">Productos</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="./carrito.html" class="nav__links">Tus compras</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="./contacto.html" class="nav__links">Contacto</a>
+                    </li>
+    
+                    <li class="nav__items">
+                        <a href="./iniciosesion.html" class="nav__links">Iniciar sesion</a>
+                    </li>
+    
+                    <li class="nav_items">
+                        <a href="./registro.html" class="nav__links">Crear cuenta</a>
+                    </li>
+    
+                    <li class="nav__items">
+                        <a href="./administrador.html" class="nav__links">Administrador</a>
+                    </li>
+    
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </ul>
+            </nav>
+
+            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                <h2 class="footer__newsletter">Suscribete</h2>
+                <div class="footer__inputs">
+                  
+                    <input type="submit" value="Registrate" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy contenedor">
+            <div class="footer__social">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 19 22 12 13 5 13 19"></polygon><polygon points="2 19 11 12 2 5 2 19"></polygon></svg>
+            
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy;</h3>
+        </section>
+    </footer>
+
+    <script src="../Proyecto-Unica-main/javascript/producto-nuevo.js"></script>
+    
+
+</body>
+</html>
