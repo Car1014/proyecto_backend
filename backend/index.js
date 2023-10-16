@@ -43,18 +43,18 @@ app.post('/transaction', async (req, res) => {
 
 app.get('/transaction',async(req,res)=>{
 
-   
+   console.log("llegue")
     try {
         const searchTerm = req.query.term;
-    
+        console.log("aqui")
         // Realizar la búsqueda en la base de datos
         const users = await prisma.user.findMany({
           where: {
             OR: [
               {
-                nombre: {
+                password: {
                   contains: searchTerm,
-                  // mode no es válido aquí, puedes eliminarlo
+                 
                 }
               },
               {
