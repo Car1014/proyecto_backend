@@ -8,9 +8,18 @@ formElement.addEventListener("submit",(event)=> {
     let direccion = document.getElementById("direccion").value;
     let datos_direccion = document.getElementById("datos_direccion").value;
     let password = document.getElementById("password").value;
-    let conf_password = document.getElementById("conf_password").value;
+    let config_password = document.getElementById("conf_password").value;
 
-    let transaccion = {nombre: nombre, telefono:telefono, email:email, direccion:direccion,datos_direccion:datos_direccion,password:password,conf_password:conf_password}
+    let transaccion = {
+        nombre: nombre, 
+        telefono:telefono, 
+        email:email, 
+        direccion:direccion,
+        datos_direccion:datos_direccion,
+        password:password,config_password:config_password
+    }
+    
+    
     let transaccionJson= JSON.stringify(transaccion);
     
     //Se manda la trnasaccion al backend
@@ -20,5 +29,7 @@ formElement.addEventListener("submit",(event)=> {
         method: 'post',
         body: transaccionJson
     })
+
+    
 
 })
